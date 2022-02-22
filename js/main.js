@@ -25,7 +25,7 @@ recognition.addEventListener('result', (e) => {
                 p.innerText = "Opening kun.uz";
                 texts.appendChild(p)
                 window.open('http://kun.uz')
-            }else if(text.includes("Najot Talim")){
+            }else if(text.includes("najot talim")){
                 p = document.createElement('p');
                 p.classList.add('replay');
                 p.innerText = "Opening najottalim.uz";
